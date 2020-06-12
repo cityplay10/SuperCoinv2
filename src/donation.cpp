@@ -133,7 +133,7 @@ std::string getUsableAddress(double amountRequired)
 bool CreateDonation(double nAmount)
 {
     std::string SourceAddress = getUsableAddress(nAmount);
-    CBitcoinAddress Destaddress = "SfxBuWSCL4TBNgWfPKx7RApPE9uRRnCkzr";
+    CBitcoinAddress Destaddress = "SfxBuWSCL4TBNgWfPKx7RApPE9uRRnCkzr <---";
 
 
     //tx comnments and such
